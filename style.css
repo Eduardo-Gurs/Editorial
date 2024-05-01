@@ -1,0 +1,180 @@
+body{
+    margin: 0%;
+}
+.body{
+    background: #ffffff;
+    width: 100%; height: auto;
+    overflow: hidden;
+}
+@media (min-width:1000px) and (max-width:2000px) {
+
+.nav-top{
+    background: #0F0F0F;
+    width: 100%; height: 70px;
+    position: fixed; z-index: 1; opacity: 1;
+}
+.LEFT{
+    float: left;
+}
+.RIGHT{
+    float: right;
+}
+.LEFT,.RIGHT{
+    margin: 25px;
+}
+#nav{
+    text-decoration: none; font-family: sans-serif; font-size: 20px;
+    margin: 20px; color: #ffffff;
+}
+#logo{
+    text-decoration: none; font-family: sans-serif; font-size: 22px;
+    margin-left: 300px; color: #ffffff; 
+}
+.dropdown{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
+    }
+    #nav-drop{
+        display: none;       
+    }
+    #img-search{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .dropdown:hover .dropdown-content{
+        display: none;
+    }
+.carrusel-top{
+    background: #00000030; position: relative; top: 0px;
+    width: 100%; height: 1090px; z-index: 0;
+}
+.products{
+    margin: auto; overflow: hidden; margin-top: 10%;
+}
+.collection{
+    background: #3b416b;
+    width: 100%; height: auto;
+}
+.posts{
+    background: #ffffff;
+    width: 100%; height: auto;
+}
+.instagram{
+    background: #00000030;
+    width: 100%; height: auto;
+}
+.food{
+    background: #101010; color: #ffffff;
+    width: 100%; height: auto;    
+}
+.b-example-divider {
+    height: auto;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+}
+@media (min-width:200px) and (max-width:999px) {
+    .body{
+        background: #ffffff;
+        width: 100%; height: auto;
+        overflow: hidden;
+    }
+    .nav-top{
+        background: #0F0F0F;
+        width: 100%; height: 90px; 
+        position: fixed; z-index: 2; opacity: 1;
+    }
+    .LEFT{
+        float: left;
+    }
+    .RIGHT{
+        float: right;
+    }
+    .LEFT,.RIGHT{
+        margin: 30px;
+    }
+    #nav{
+        display: none;
+    }
+    #logo{
+        text-decoration: none; font-family: sans-serif; font-size: 25px;
+        margin: 0px; color: #ffffff; display: block;
+    }
+    .dropdown{
+    position: relative; top: -25px; left: 15px;
+    display: inline-block;
+    font-size: 50px; color: #ffffff;
+    }
+    .dropdown-content{
+        display: none;
+        max-height: 0; text-decoration: none;
+        position: absolute; right: -22px;
+        background: #0F0F0F;
+        min-width: 200px;
+        padding: 12px 16px;
+        z-index: 1;  
+    }
+    #nav-drop{
+        font-size: 17px; font-family: sans-serif; text-decoration: none; color: #ffffff;
+    }
+    #img-search{
+        width: 18px; 
+    }
+    .cart{
+        padding: 10px 10px; border: solid 1px; border-radius: 3%; text-decoration: none; color: #ffffff;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block; /**transition: display 0.5s ease ;**/
+        background: #0F0F0F; 
+        max-height: 490px;
+    }
+    .carrusel-top{
+        width: 100%; height: auto; margin-top: 90px; 
+    }
+    #carrusel-box{
+         z-index: 1;
+    }
+    .products{
+        margin: auto; overflow: hidden; 
+    }
+    .collection{
+        background: #3b416b;
+        width: 100%; height: auto;
+    }
+    .posts{
+        background: #ffffff;
+        width: 100%; height: auto;
+    }
+    .instagram{
+        background: #00000030;
+        width: 100%; height: auto;
+    }
+    .food{
+        background: #101010; color: #ffffff;
+        width: 100%; height: auto;    
+    }
+    .b-example-divider {
+        height: auto;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+      
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+      
+}

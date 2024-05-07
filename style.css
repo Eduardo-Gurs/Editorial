@@ -20,15 +20,14 @@ body{
     float: right;
 }
 .LEFT,.RIGHT{
-    margin: 25px;
+    margin: 20px;
 }
 #nav{
     text-decoration: none; font-family: sans-serif; font-size: 20px;
     margin: 20px; color: #ffffff;
 }
 #logo{
-    text-decoration: none; font-family: sans-serif; font-size: 22px;
-    margin-left: 300px; color: #ffffff; 
+    width: 100px; height: 50px; position: absolute; top: 4px; right: 45%;
 }
 .dropdown{
         display: none;
@@ -49,7 +48,7 @@ body{
         display: none;
     }
 .carrusel-top{
-    background: #00000030; position: relative; top: 0px;
+    position: relative; top: 0px;
     width: 100%; height: 1090px; z-index: 0;
 }
 .products{
@@ -108,8 +107,7 @@ body{
         display: none;
     }
     #logo{
-        text-decoration: none; font-family: sans-serif; font-size: 25px;
-        margin: 0px; color: #ffffff; display: block;
+        width: 100px; height: 50px; position: absolute; top: 8px; right: 55%;
     }
     .dropdown{
     position: relative; top: -25px; left: 15px;

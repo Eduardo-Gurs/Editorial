@@ -1,13 +1,16 @@
 body{
     margin: 0%;
 }
-.body{
+.body{  
     background: #ffffff;
     width: 100%; height: auto;
     overflow: hidden;
 }
-@media (min-width:1000px) and (max-width:2000px) {
 
+@media (min-width:1000px) and (max-width:2000px) {
+    .separador{
+        padding: 3%;
+    }
 .nav-top{
     background: #0F0F0F;
     width: 100%; height: 70px;
@@ -84,6 +87,9 @@ body{
   }
 }
 @media (min-width:200px) and (max-width:999px) {
+    .separador{
+        padding: 50px;
+    }
     .body{
         background: #ffffff;
         width: 100%; height: auto;
